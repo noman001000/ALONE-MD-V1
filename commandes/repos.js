@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/boniphace478/BONIPHACE-MD';
-  const img = 'https://telegra.ph/file/1c7db35f3445430d1bbee.jpg';
+  const githubRepo = 'https://api.github.com/repos/Toputech/ALONE-MD';
+  const img = 'https://files.catbox.moe/4tu6s0.jpg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,18 +22,18 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*hellow whatsaap user
-this is* *Boniphace_md.*\n support our channel *by*,  https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G
+this is* *ALONE_md.*\n support our channel *by*,  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 
 🗼 *REPOSITORY:* ${data.html_url}
 🌟 *STARS:* ${repoInfo.stars}
 🧧 *FORKS:* ${repoInfo.forks}
 📅 *RELEASE DATE:* ${releaseDate}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-👨‍💻 *OWNER:* *Boniphace tech*
-💞 *THEME:* *BONIPHACE*
-🥰*ONLY GOD CAN JUDGE ME!👑*
+👨‍💻 *OWNER:* *Topu tech*
+💞 *THEME:* *TOPU*
+🥰*ONLY Enjoyment is interesting!👑*
 __________________________________
-            *Made With Boniphace Tech*`;
+            *Made With Toputech Tech*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
