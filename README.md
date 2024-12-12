@@ -1,134 +1,124 @@
-## ALONE Md
- <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=red&size=25&center=true&vCenter=true&width=600&height=100&lines=I'm+alone+md+Created+by+Toputech.&heart;++;Self-taught+Back-Created+By,;Ibrahim+Adams+Am+The,;Best+Is+Bot+For+You+To,;Deploy..<3"></a>
- <a href="https://telegra.ph/file/a426523c1f8b7ee7430f1.jpg">
- <img alt="AlONE-MD" height="300" src="https://telegra.ph/file/a426523c1f8b7ee7430f1.jpg">
-  
-</h1> 
-<p align="center">l introduce <b>BONIPHACE-MD</b>, a powerful simple WhatsApp bot </p>
 
-</p>
-  <p align="center">
-<a href="https://github.com/toputech?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/boniphace478?label=Followers&style=social"></a>
-<a href="https://github.com/Toputech/ALONE-MD-V1/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/Toputech/ALONE-MD-V1?&style=social"></a>
-<a href="https://github.com/boniphace478/boniphace-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/boniphace478/boniphace-md?style=social"></a>
-<a href="https://github.com/Toputech/ALONE-MD-V1/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Toputech/alone-Md-v1 label=Watching&style=social"></a>
-
-</p>
-<p align="center"><img src="https://profile-counter.glitch.me/{Toputech}/count.svg" alt="Alone-md :: Visitor's Count"/></p>
-
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+ <h1 align="center"> A͛L͛O͛N͛E͛ M͛D͛ </h1>
 
 
-</a>
-  <div align="center">
-  <img src="https://spogit.vercel.app/api?theme=dark&black=true&scan=true" alt="Widget with the current Spotify song"  />
-</div>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
----
-
-<p align="center">
-  <a href="https://github.com/Toputech/ALONE-MD-V1"><b>alone-md</b></a> Support Deploy On...
-</p>
-
-<p align="center">
-  <a href="https://github.com/Toputech/ALONE-MD-V1/blob/main/temp/deploy-on-vps.md"><img src="https://img.shields.io/badge/self hosting-3d1513?style=for-the-badge&logo=serverless&logoColor=FD5750"></a>
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/Toputech/ALONE-MD-V1/tree/main"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
-  <a href="https://youtu.be/izoxfW3anrU"><img src="https://img.shields.io/badge/CodeSpace-green?colorA=%23ff000&colorB=%23017e40&style=for-the-badge&logo=git&logoColor=white"></a>
-</p>
-
-
-
-    
  
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+ <h1 align="center"> life is such a bullshit without a whatsapp bot </h1>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  
+<p align="center"> Introducing ALONE Md, A Simple WhatsApp user BOT, Created by topu Tech.
+</p>
+
+  <a href="https://ibb.co/N6NMDtn"><img src="https://files.catbox.moe/4tu6s0.jpg" alt="01" border="0" /></a>                     
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>&</a>
+ ## 🚀 `Bot Features`
+| Feature                          | Description                                             | Available    | Version    |
+| ---------------------------------| ------------------------------------------------------- | ------------ | ---------- |
+| Multi-Device Support             | Operate the bot on multiple devices simultaneously     | ✅           | 2.0        |
+| AI Photo Enhancement             | Enhance photos using advanced AI algorithms            | ✅           | 2.0        |
+| Downloader Commands              | Download various types of content from the internet     | ✅           | 2.0        |
+| Hidden NSFW Commands             | Access a range of NSFW commands hidden in the bot       | ✅           | 2.0        |
+| Logo Commands                    | Generate logos using specialized commands               | ✅           | 2.0        |
+| Anime Commands                   | Explore anime-related commands and features              | ✅           | 2.0        |
+| Economy Menu                     | Engage in economic activities within the bot            | ✅           | 2.0        |
+| Various Games                    | Enjoy a variety of games within the bot                 | ✅           | 2.0        |
+| Audio/Video Editor Commands      | Edit audio and video files with bot commands            | ✅           | 2.0        |
 
 
 
----
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
+#### SETUP
 
-
-
-## HOW TO DEPLOY AlONE MD
-
-
-## 1.FIRST STEP 
-## Fork Alone Md Repo
-👇 👇  👇 👇
-<a href="https://github.com/boniphace478/BONIPHACE-MD/fork"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/FORK THIS REPO-h?color=darkblue&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
-
-star✨ my repo if you like this bot🤖
-
-
-## 2.SECOND STEP 
-
-
- GET SESSION ID BY
-
-### QR SITE
-
-<a href="https://boniphace-md-pair-924e823f5267.herokuapp.com/qr"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/QR CODE-h?color=green&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
-
-### SESSION SITE
-
-<a href="https://boniphace-md-pair-924e823f5267.herokuapp.com/"><img title="Tap Here Open Session Site" src="https://img.shields.io/badge/PAIRING CODE-h?color=green&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
-
-
-
-
-
-### 3.THIRD STEP 
-1. If You Don't Have An Account On Heroku**
-
-   <br>
-    <a 
-<a align="center"><a href="https://signup.heroku.com">
- <img src="https://img.shields.io/badge/Create%20Account%20Now-darkblue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-### 2. If You Have Account On Heroku**👇 👇 👇
-
-   <br>
-    <a href='https://dashboard.heroku.com/new?template=https://github.com/boniphace478/BONIPHACE-MD' target="_darkblue"><img alt='DEPLOY TO HEROKU' src="https://img.shields.io/badge/Deploy%20To%20Heroku-darkblue?style=for-the-badge&logo=heroku" width="200" height="38.45"/></a></p>
-
-
-### DEPLOY ON RENDER
-
-1. If you don't have an account in RENDER, create one and deploy.
+1. Fork the repo
     <br>
-    <a href='https://dashboard.render.com/select-repo?type=web' target="_darkblue"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/></a>
+<a href='https://github.com/Toputech/ALONE-MD-/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
-   ###
 
-CONTACT DEVELOPER ON WHATSAPP 
-
-<a href="https://wa.link/4d9cpj" target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/boniphace tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+2. Get Session ID (By pairing code)
+   > 
+     <a href='https://topu-scan-pair.onrender.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
-  
- 
-<a href="https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G" target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/ BONIPHACE_TECH  CHANNEL -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
- 
+3. Deploy on heroku
+    <br>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Toputech/ALONE-MD-V1' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
-## License
-
-The WhatsApp Bot BONIPHACE-MD is released under the [MIT License](https://opensource.org/licenses/MIT).
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-🌟 THANK YOU FOR CHOOSING BONIPHACE-MD 🌟
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+   
+## Supported Versions Node Versions to run this bot
 
-## DEVELOPERS :
+Please Use Node Version Higher to Get The Best Performance.
 
-- [**BONIPHACE TECH**](https://github.com/boniphace478)
-- [**Developers YT**](https://youtube.com/@anthonyboniphace?si=86VHGM7BZ4Q_OQYO)
- <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+| Version | Supported          |
+| ------- | ------------------ |
+| 14.x   | :x: |
+| 16.x   | ❗                |
+| 18.x   | :white_check_mark: |
+| 20.x   | ✅                |
+
+## Support 
+## Join my channel for updates and get free cc
+<a href="https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r" target="_blank">
+    <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Channel -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+</p>
+
+
+HOW TO REACH THE OWNER? 
  
-★THANKS BE TO GOG 🙏. ©
+   
+   <a href="https://wa.me+255673750170">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>&nbsp;&nbsp;
+   <a
+
+    ## Ask any thing
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-     
 
+
+## Makesure you follow my channel for latest updates for ALONE MD bot and free CC
+ [`WA CHANNEL`](https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r)
+
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+   
+   
+## Thankyou for choosing ALONE MD bot 
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+## Contributions
+
+
+Contributions to *ALONE-MD* are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+
+# Security Notice
+TOPU Md is safe for your WhatsApp and heroku
+
+## Reporting a Vulnerability
+
+
+## powered by TOPU MD
+
+
+
+The *ALONE-MD* is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+Enjoy the diverse features of the *ALONE-MD*  to enhance your Whatsapp more enjoyable
+☣Powered by TOPU Tech
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
