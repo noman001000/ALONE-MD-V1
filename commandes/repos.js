@@ -21,8 +21,8 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `*hellow whatsaap user
-this is* *ALONE_md.*\n support our channel *by*,  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
+      const gitdata = `*...hurraah!!!
+this is ALONE_md.*\n support our channel *by*,  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 
 🗼 *REPOSITORY:* ${data.html_url}
 🌟 *STARS:* ${repoInfo.stars}
@@ -31,9 +31,9 @@ this is* *ALONE_md.*\n support our channel *by*,  https://whatsapp.com/channel/0
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 👨‍💻 *OWNER:* *Topu tech*
 💞 *THEME:* *TOPU*
-🥰*ONLY Enjoyment is interesting!👑*
+🥰 *since you have me,You will never feel alone!* ❣️
 __________________________________
-            *Made With Toputech Tech*`;
+            * ❣️ ©Toputech*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
