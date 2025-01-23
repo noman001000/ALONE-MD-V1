@@ -66,12 +66,12 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 
-┏━━ BONIPHACE MD ━━┓
+┏━━ 🥳𝘼𝙇𝙊𝙉𝙀- 𝙈𝘿❤️━━┓
 ┃   Mode: ${mode}
 ┃   User : ${s.OWNER_NAME}
 ┃
-┣━boniphace md new vision 𒈒━➠
-┗━━━𒈒by Boniphace Tech𒈒━━┛\n\n`;
+┣━🫣🤗𝙷𝚎𝚕𝚕𝚘 𝚖𝚢 𝚏𝚛𝚒𝚎𝚗𝚍 𝙸 𝚊𝚖 𝚑𝚊𝚙𝚙𝚢 𝚝𝚘 𝚜𝚎𝚎 𝚢𝚘𝚞 𝚊𝚐𝚊𝚒𝚗 ❣️❣️𒈒━➠
+┗━━━𒈒❣️❣️❣️❣️❣️𒈒━━┛\n\n`;
 
 
     
@@ -79,13 +79,13 @@ const date = moment().format('DD/MM/YYYY');
 let menuMsg = `
 ┏━━━━━━━━━━━━━━┓
 ┣༆boniphace md  
-┣༆by Boniphace Tech
+┣༆😊T𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝙼𝙴𝙽𝚄 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚊𝚜𝚔𝚒𝚗𝚐 𝚏𝚘𝚛❣️
 ┗━━━━━━━━━━━━━━┛\n
 
 
 
 
-boniphace md cmds𒈒
+Alone md cmds𒈒
 `;
 
 
@@ -112,13 +112,13 @@ boniphace md cmds𒈒
 
 
 ︎┏━━━━━━━━━━━━━━┓
-️┣❏boniphace md bot 
-┣❏by boniphace Tech 
+️┣❏✓𝘼𝙇𝙊𝙉𝙀 𝙈𝘿•
+┣❏by Topu Tech 
 ┗━━━━━━━━━━━━━━┛\n
 
 
 ┏━━━━━━━━━━━━━━┓
-┃powered by boniphace Tech 
+┃❣️𝙴𝚗𝚓𝚘𝚢 𝚢𝚘𝚞𝚛 𝚝𝚒𝚖𝚎 🥹 
 ┗━━━━━━━━━━━━━━┛\n
 
 
