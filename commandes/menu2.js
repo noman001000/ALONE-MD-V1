@@ -64,7 +64,7 @@ let menuMsg = `
 ╰────────────···▸▸ \n`
     }
 
-    menuMsg += `> powered by Boniphace Tech 
+    menuMsg += `> powered by TOPU TECH
 `;
 
    var lien = mybotpic();
