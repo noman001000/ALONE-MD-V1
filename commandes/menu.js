@@ -69,7 +69,7 @@ const date = moment().format('DD/MM/YYYY');
 ┏━━ 🥳𝘼𝙇𝙊𝙉𝙀- 𝙈𝘿❤️━━┓
 ┃   Mode: ${mode}
 ┃   User : ${s.OWNER_NAME}
-┃   *Commands* : ${evt.cm.length}
+┃   
 ┣━🫣🤗𝙷𝚎𝚕𝚕𝚘 𝚖𝚢 𝚏𝚛𝚒𝚎𝚗𝚍 𝙸 𝚊𝚖 𝚑𝚊𝚙𝚙𝚢 𝚝𝚘 𝚜𝚎𝚎 𝚢𝚘𝚞 𝚊𝚐𝚊𝚒𝚗 ❣️❣️𒈒━➠
 ┗━━━𒈒❣️❣️❣️❣️❣️𒈒━━┛\n\n`;
 
