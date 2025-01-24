@@ -7,7 +7,7 @@
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/4tu6s0.jpg",
+  "logo": "https://i.imgur.com/jE8eQsP.jpeg",
   "repository": "https://github.com/Toputech/ALONE-MD-V1",
   "succes_url": "/",
   "stack": "container",
@@ -59,7 +59,7 @@
     },
     "BOT_NAME": {
       "description": "Give a name for your bot",
-      "value": "ALONE-MD",
+      "value": "ᗩᒪOᑎE ᗰᗪ",
       "required": false
     },
     "BOT_MENU_LINKS": {
