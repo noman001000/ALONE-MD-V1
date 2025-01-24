@@ -4,6 +4,7 @@ web: npm start || yarn start
 
 # node index.js
 
+# npm run alone
 
 
 
@@ -14,5 +15,4 @@ web: npm start || yarn start
 
 
 
-
-# Creator: BONIPHACE TECH
+# Creator: Toputech 
