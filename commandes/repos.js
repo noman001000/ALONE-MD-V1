@@ -4,7 +4,7 @@ const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/Toputech/ALONE-MD';
-  const img = 'https://files.catbox.moe/4tu6s0.jpg';
+  const img = 'https://i.imgur.com/jE8eQsP.jpeg';
 
   try {
     const response = await fetch(githubRepo);
@@ -21,7 +21,9 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-      const gitdata = `🫣Ｈｕｒｒａａｈ..!!this is •𝘼𝙇𝙊𝙉𝙀-𝙈𝘿•.*\n support our channel *by*,  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
+      const gitdata = `🫣Ｈｕｒｒａａｈ..!!
+      this is •𝘼𝙇𝙊𝙉𝙀-𝙈𝘿•. 
+      \n support : ,  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 
 🗼 *REPOSITORY:* ${data.html_url}
 🌟 *STARS:* ${repoInfo.stars}
