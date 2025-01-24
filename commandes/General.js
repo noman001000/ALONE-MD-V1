@@ -2,7 +2,7 @@ const { zokou } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-topu({ nomCom: "owner", categorie: "General", reaction: "👑" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "owner", categorie: "General", reaction: "👑" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -51,7 +51,7 @@ topu({ nomCom: "owner", categorie: "General", reaction: "👑" }, async (dest, z
   }
 });
 
-topu({ nomCom: "dev", categorie: "General", reaction: "🫶" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dev", categorie: "General", reaction: "🫶" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
@@ -91,7 +91,7 @@ else {
 }
 });
 
-topu({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
@@ -99,7 +99,7 @@ topu({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptio
 
 })
 
-topu({ nomCom: "developer", categorie: "General", reaction: "🦁" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "developer", categorie: "General", reaction: "🦁" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
