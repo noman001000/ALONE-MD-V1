@@ -183,7 +183,7 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
         commandsList += "\n│◦➛╰─────────────\n╰──────────────┈⊷\n";
     }
 
-    commandsList += readMore + "\nin honor of Alpha\n";
+    commandsList += readMore + "\nin honor of Alone\n";
 
     // Send message
     try {
@@ -195,7 +195,7 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
                 externalAdReply: {
                     title: "🌟ＡＬＯＮＥ ＭＤ✨",
                     body: "POWERED BY TOPUTECH",
-                    thumbnailUrl: "https://files.catbox.moe/09c9r1.jpg",
+                    thumbnailUrl: "https://i.imgur.com/jE8eQsP.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r",
                     mediaType: 1,
                     renderLargerThumbnail: true
