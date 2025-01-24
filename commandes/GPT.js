@@ -1,57 +1,69 @@
-const { zokou } = require('../framework/zokou');
-const traduire = require("../framework/traduction") ;
-const s = require('../set');
-const axios = require('axios');
+const { zokou } = require("../framework/zokou");
+const ai = require('unlimited-ai');
 
-/* 
-Created By Topu tech
-Don't claim, okey 
-*/
+zokou({
+  nomCom: "gpt",
+  aliases: ["gpt4", "ai"],
+  reaction: '⚔️',
+  categorie: "search"
+}, async (context, message, params) => {
+  const { repondre, arg } = params;  // Use args for the command arguments
+  const alpha = arg.join(" ").trim(); // Assuming args is an array of command parts
 
-zokou({nomCom:"gpt4",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+  if (!alone) {
+    return repondre("Please provide a song name.");
+  }
 
-  const {repondre,ms,arg}=commandeOptions;
-  
-async function gpt4(q) {
-  const headers = {
-    'Content-Type': 'application/json',
-    'Referer': 'https://chatgpt4online.org/',
-    'Sec-Ch-Ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
-    'Sec-Ch-Ua-Mobile': '?0',
-    'Sec-Ch-Ua-Platform': '"Windows"',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-    'X-Wp-Nonce': '152990aad3'
-  };
+  // Assuming 'alone' is the text we want to use in the AI prompt
+  const text = alone;  // Set the text that will be passed to the AI
 
-  const params = {
-    "botId": "default",
-    "customId": null,
-    "session": "N/A",
-    "chatId": "r20gbr387ua",
-    "contextId": 58,
-    "messages": [
-      {
-        "id": "0aqernpzbas7",
-        "role": "assistant",
-        "content": "Hi! How can I help you?",
-        "who": "AI: ",
-        "timestamp": 1719360952775
-      }
-    ],
-    "newMessage": q,
-    "newFileId": null,
-    "stream": false
-  };
+  // Wrapped in an async IIFE to keep the flow correct
+  (async () => {
+    const model = 'gpt-4-turbo-2024-04-09'; 
+
+    const messages = [
+      { role: 'user', content: text },
+      { role: 'system', content: 'You are an assistant in WhatsApp. You are called Topu. You respond to user commands.' }
+    ];
+
+    try {
+      const response = await ai.generate(model, messages);
+      await repondre(response);  // Send the response back to the user
+    } catch (error) {
+      console.error("Error generating AI response:", error);
+      await repondre("Sorry, I couldn't process your request.");
+    }
+  })();
+});
+
+zokou({
+  nomCom: "gemini",
+  aliases: ["gpto4", "gemni", "gpt2", "gpt3"],
+  reaction: '⚔️',
+  categorie: "search"
+}, async (context, message, params) => {
+  const { repondre, arg } = params;
+  const elementQuery = arg.join(" ").trim(); // Use 'arg' to capture the user query
+
+  // Check if elementQuery is empty
+  if (!elementQuery) {
+    return repondre("Please provide a song name.");
+  }
 
   try {
-    const response = await axios.post("https://chatgpt4online.org/wp-json/mwai-ui/v1/chats/submit", params, { headers });
-    console.log('Response:', response.data);
-  } catch (error) {
-    console.error('Error:', error);
+    // Dynamically import Gemini AI
+    const { default: Gemini } = await import('gemini-ai');
+    const gemini = new Gemini("AIzaSyDNO5AWTAL9buuRtqe3MZKXNhQCdGIljyk");
+
+    const chat = gemini.createChat();
+
+    // Ask Gemini AI for a response
+    const res = await chat.ask(elementQuery);
+
+    // Send the response back to the user
+    await repondre(res);
+  } catch (e) {
+    // Handle errors by sending a message to the user
+    await repondre("I am unable to generate responses\n\n" + e.message);
   }
-}
-
-gpt4('kapan kamu di update??');
-
-Feature: Chat Gpt 4
-Reason: -
+});
