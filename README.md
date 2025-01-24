@@ -14,7 +14,7 @@
 <p align="center"> Introducing ALONE Md, A Simple WhatsApp user BOT, Created by topu Tech.
 </p>
 
-  <a href="https://ibb.co/N6NMDtn"><img src="[https://files.catbox.moe/4tu6s0.jpg](https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%2270abf4aeb0e4673da8595488d29b0e2b.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-01-24T03%3A59%3A55.614Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F%2F9a111702b8b84167%2F70abf4aeb0e4673da8595488d29b0e2b.jpg%3FExpires%3D1832299196%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DeGRhB8ihVuYLAUEHXuF5PQmwfcrUnYuB3OX4dCocnmKUmhJsnYUGaq-EAVfZa1YsFPpu3av6RgcPCEOE7yyNa3H~y41FKwy0Z3FOYfSZgtZaTY8LkCK64CZ2jpcG8XHJCiib63irOOd0eeJS2ZcINDgKAwYyt5akU3btv4FIld8w1hAKqsg0syyEO12CPr2vXVHkOOJROwbLLXEDEBIiNuUlv3eSZHpC8N4THZwC3Q5~aht8onglm5Lezn9YDZXKMDpkaQRez11me~uEvfFjyBriU13D8-OvPrAgFXImPVvHF9hRA1x78rPl1JLy5mA0b-8eBrNI60Koibg3vsUOsQ__%22%7D)" alt="01" border="0" /></a>                     
+  <a href="https://ibb.co/N6NMDtn"><img src="https://i.imgur.com/jE8eQsP.jpeg" alt="01" border="0" /></a>                     
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>&</a>
  ## 🚀 `Bot Features`
 | Feature                          | Description                                             | Available    | Version    |
@@ -38,7 +38,7 @@
 
 1. Fork the repo
     <br>
-<a href='https://github.com/Toputech/ALONE-MD-/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/Toputech/ALONE-MD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 
