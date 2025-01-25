@@ -69,7 +69,7 @@ zokou({ nomCom: 'channel',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G`) 
+                 await repondre(`https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r`) 
 
    
 
@@ -89,7 +89,7 @@ zokou({ nomCom: 'channel1',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top here to join my second channel https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G`) 
+                 await repondre(`top here to join my second channel https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r`) 
 
    
 
@@ -109,7 +109,7 @@ zokou({ nomCom: 'update',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_𝔹𝕆ℕ𝕀ℙℍ𝔸ℂ𝔼~𝕄𝔻 is running...... Love it_*`) 
+                 await repondre(`*_𝐀𝐋𝐎𝐍𝐄 𝐌𝐃 is running...... Love it_*`) 
 
    
 
@@ -129,7 +129,7 @@ zokou({ nomCom: 'vision',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_BONIPHACE-MD_*`) 
+                 await repondre(`*_ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ʟᴇᴛ ʏᴏᴜ ᴇɴᴊᴏʏ ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ.... ❣️ ɪ ʟᴏᴠᴇ ʏᴏᴜ _*`) 
 
    
 
@@ -150,7 +150,7 @@ zokou({ nomCom: 'group1',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top a link to join boniphace group  https://chat.whatsapp.com/KrseXOOYu2nKOkht0qonhY`) 
+                 await repondre(`top a link to join boniphace group  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r`) 
 
    
 
@@ -170,7 +170,7 @@ zokou({ nomCom: 'scriptkidies',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`top here to Boniphace script kiddies group https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G`) 
+                 await repondre(`top here to Alone script kiddies group https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r`) 
 
    
 
@@ -179,7 +179,7 @@ zokou({ nomCom: 'scriptkidies',
 )
 
 
-zokou({ nomCom: 'boniphace',
+zokou({ nomCom: 'Topu',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🤷', 
@@ -210,7 +210,7 @@ zokou({ nomCom: 'me',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_255716661569,255767528416*`) 
+                 await repondre(`*check the developer via https://wa.me/c/255673750170*`) 
 
    
 
@@ -231,19 +231,19 @@ zokou({ nomCom: 'problem',
     const { ms, arg, repondre } = commandeOptions;
 
                  await repondre(`*┏━━━━━━━━━━━━━━
-┃BONIPHACE-MD 🎉🎉🎉 
+┃ALONE-MD 🎉🎉🎉 
 | NEVER 
 ┃DIE🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘 BONIPHACE TECH 𖥘
+❶ || Creator = 𖥘 TPPU TECH 𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaiMm7d4yltT51HS1T1G
+❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?👉 https://t.me/boniphaceTech 👈
+Wanna talk to me?👉 https://wa.me/c/255673750170 👈
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*2024-2099 BONIPHACE TECH**`) 
+© *TOPU TECH*`) 
 
    
 
