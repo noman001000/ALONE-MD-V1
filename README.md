@@ -16,7 +16,7 @@
 
   <a href="https://ibb.co/N6NMDtn"><img src="https://i.imgur.com/jE8eQsP.jpeg" alt="01" border="0" /></a>                     
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>&</a>
- ## 🚀 `Bot Features`
+ 
 
 
 
@@ -34,7 +34,8 @@
 
 2. Get Session ID (By pairing code)
    > 
-     <a href='[https://alone-pairing-code.onrender.com/pair]' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+     <a href='https://alone-pairing-code.onrender.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+
 
 
 3. Deploy on heroku
@@ -56,7 +57,6 @@ Please Use Node Version Higher to Get The Best Performance.
 | 20.x   | ✅                |
 
 ## Support 
-## Join my channel for updates and get free cc
 <a href="https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r" target="_blank">
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Channel -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
@@ -77,7 +77,7 @@ HOW TO REACH THE OWNER?
 
 
 
-## Makesure you follow my channel for latest updates for ALONE MD bot and free CC
+## Makesure you follow my channel for latest updates 
  [`WA CHANNEL`](https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r)
 
 
@@ -97,9 +97,8 @@ HOW TO REACH THE OWNER?
 Contributions to *ALONE-MD* are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
 # Security Notice
-TOPU Md is safe for your WhatsApp and heroku
+Alone Md is safe for your WhatsApp and heroku
 
-## Reporting a Vulnerability
 
 
 ## powered by TOPU MD
@@ -108,7 +107,3 @@ TOPU Md is safe for your WhatsApp and heroku
 
 The *ALONE-MD* is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-Enjoy the diverse features of the *ALONE-MD*  to enhance your Whatsapp more enjoyable
-☣Powered by TOPU Tech
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
