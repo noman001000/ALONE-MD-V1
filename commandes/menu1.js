@@ -40,7 +40,7 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *commander* : ${cm.length} 
     ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     ▸ *uptime* : ${os.platform()}
-    ▸ *theme* : *BONIPHACE TECH*
+    ▸ *theme* : *TOPU TECH*
 
 > ALONE❣️ MD WA BOT
 > POWERED BY TOPU TECH 💎\n${readmore}`;
