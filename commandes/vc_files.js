@@ -76,7 +76,30 @@ zokou({ nomCom: 'channel',
 
   }
 );
+zokou({ nomCom: 'alone',
+    desc: 'To check runtime',
+    Categorie: 'General',
+    reaction: '🍁', 
+    fromMe: 'true', 
 
+
+  },
+  async (dest, zk, commandeOptions) => {
+    const { ms, arg, repondre } = commandeOptions;
+
+                 await repondre(`ʜᴇʟʟᴏ.... ɪ'ᴍ ʜᴀᴘᴘʏ ᴛᴏ sᴇᴇ ʏᴏᴜ
+
+ᴀʟᴏɴᴇ ᴏᴡɴᴇʀ sᴀʏs ᴍᴏsᴛ ᴏғ ᴜᴘᴅᴀᴛᴇs ᴀʀᴇ ᴀʀᴏᴜɴᴅ ᴛʜᴇ ᴄᴏʀɴᴇʀ... ʏᴏᴜ ᴡɪʟʟ ᴇɴᴊᴏʏ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀs ʜᴇ ᴀᴅᴅs ᴛʜᴇᴍ...
+
+....ᴜsᴇ ᴍᴇ ᴄᴀʀᴇғᴜʟʟʏ 
+
+ɪ ʟᴏᴠᴇ ʏᴏᴜ`) 
+
+   
+
+
+  }
+);
 
 zokou({ nomCom: 'channel1',
     desc: 'To check runtime',
