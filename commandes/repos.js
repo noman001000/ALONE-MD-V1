@@ -23,7 +23,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
 
       const gitdata = `🫣Ｈｕｒｒａａｈ..!!
       this is •𝘼𝙇𝙊𝙉𝙀-𝙈𝘿•
-      ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ʟᴇᴛ ʏᴏᴜ ᴇɴᴊᴏʏ ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ.... ɪ ʟᴏᴠᴇ ʏᴏᴜ 💘
+      ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ʟᴇᴛ ʏᴏᴜ ᴇɴᴊᴏʏ ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ.... ɪ ʟᴏᴠᴇ ʏᴏᴜ 💘'
       \n support : ,  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 
 🗼 *REPOSITORY:* ${data.html_url}
