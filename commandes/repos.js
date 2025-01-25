@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/Toputech/ALONE-MD';
+  const githubRepo = 'https://api.github.com/repos/Toputech/ALONE-MD-V1';
   const img = 'https://i.imgur.com/jE8eQsP.jpeg';
 
   try {
@@ -22,7 +22,8 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `🫣Ｈｕｒｒａａｈ..!!
-      this is •𝘼𝙇𝙊𝙉𝙀-𝙈𝘿•. 
+      this is •𝘼𝙇𝙊𝙉𝙀-𝙈𝘿•
+      ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ʟᴇᴛ ʏᴏᴜ ᴇɴᴊᴏʏ ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ.... ɪ ʟᴏᴠᴇ ʏᴏᴜ 💘
       \n support : ,  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 
 🗼 *REPOSITORY:* ${data.html_url}
@@ -32,7 +33,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 👨‍💻 *OWNER:* *Topu tech*
 💞 *THEME:* *TOPU*
-🥰 *𝚂𝚒𝚗𝚌𝚎 𝚢𝚘𝚞 𝚑𝚊𝚟𝚎 𝚖𝚎, 𝚢𝚘𝚞'𝚕𝚕 𝚗𝚎𝚟𝚎𝚛 𝚏𝚎𝚎𝚕 𝚊𝚕𝚘𝚗𝚎!* ❣️
+🥰 *𝚂𝚒𝚗𝚌𝚎 𝚢𝚘𝚞 𝚑𝚊𝚟𝚎 𝚖𝚎, 𝚢𝚘𝚞'𝚕𝚕 𝚗𝚎𝚟𝚎𝚛 𝚏𝚎𝚎𝚕 𝚊𝚕𝚘𝚗𝚎 !* ❣️
 __________________________________
             * ❣️ ©Toputech* `;
 
