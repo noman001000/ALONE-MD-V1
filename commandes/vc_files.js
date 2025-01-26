@@ -121,7 +121,7 @@ zokou({ nomCom: 'channel1',
 );
 
 
-zokou({ nomCom: 'update',
+zokou({ nomCom: 'aloo',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '🤷', 
