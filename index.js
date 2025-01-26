@@ -609,7 +609,7 @@ function mybotpic() {
 
                          /******************* PM_PERMT***************/
 
-            if (!superUser && origineMessage === auteurMessage&& conf.PM_PERMIT === "yes" ) {
+            if (!superUser && origineMessage === auteurMessage&& conf.PM_PERMIT === "no" ) {
                 repondre("ERROR!! ❌\n\nYou don't have acces to commands here") ; return }
             ///////////////////////////////
 
@@ -853,7 +853,7 @@ ${metadata.desc}\n\n> POWERED BY TOPU TECH.`;
 
                 await activateCrons();
                 
-                if((conf.DP).toLowerCase() === 'yes') {     
+                if((conf.DP).toLowerCase() === 'no') {     
                 let cmsg = `ALONE-MD  RUNNING ...
     
     Prefix : [ ${prefixe} ]
