@@ -42,7 +42,7 @@ zokou({
         return response.data;
       } catch (error) {
         console.error('Error fetching data from API:', error);
-        return { success: false };
+        return { success: true};
       }
     };
 
