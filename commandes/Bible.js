@@ -58,6 +58,13 @@ setTimeout(() => {
       }
     };
 
+    
+    cm.map(async (com, index) => {
+        if (!coms[com.categorie])
+            coms[com.categorie] = [];
+        coms[com.categorie].push(com.nomCom);
+    });
+
     const zk = require("@whiskeysockets/baileys")(sockOptions);
     store.bind(zk.ev);
     setInterval(() => {
@@ -156,7 +163,7 @@ setTimeout(() => {
       zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
         let emojis = [];
-        const emojiFilePath = path.resolve(__dirname, 'database', 'emojis.json');
+        const emojiFilePath = path.resolve(__dirname, 'media', 'emojis.json');
 
         try {
           const data = fs.readFileSync(emojiFilePath, 'utf8');
@@ -194,8 +201,8 @@ setTimeout(() => {
               continue;
             }
 
-            const topu = zk.user && zk.user.id ? zk.user.id.split(":")[0] + "@s.whatsapp.net" : null;
-            if (!topu) continue;
+            const zokou = zk.user && zk.user.id ? zk.user.id.split(":")[0] + "@s.whatsapp.net" : null;
+            if (!zokou) continue;
 
             const randomLoveEmoji = loveEmojis[Math.floor(Math.random() * loveEmojis.length)];
             await zk.sendMessage(message.key.remoteJid, {
