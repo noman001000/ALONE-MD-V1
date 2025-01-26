@@ -1,9 +1,9 @@
-const {zokou}=require("../framework/zokou")
-
-
-
-
-
+const axios = require("axios");
+const { zokou } = require(__dirname + "/../framework/zokou");
+const { format } = require(__dirname + "/../framework/mesfonctions");
+const os = require('os');
+const moment = require("moment-timezone");
+const settings = require(__dirname + "/../set");
 
 
 zokou({nomCom:"restart",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
