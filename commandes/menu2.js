@@ -2,12 +2,13 @@ const util = require('util');
 const fs = require('fs-extra');
 const { zokou } = require(__dirname + "/../framework/zokou");
 const { format } = require(__dirname + "/../framework/mesfonctions");
+const img = 'https://i.imgur.com/jE8eQsP.jpeg';
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
-const img = 'https://i.imgur.com/jE8eQsP.jpeg';
+
 zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
@@ -34,11 +35,20 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────  ALONE MD ─────✣
-│  ╭─────────────✣
-│  │▸ *my owner* : ${s.OWNER_NAME}
-   │▸ *commander* : ${nomAuteurMessage} 
-╰──────────────💎
+
+
+┏━━ 🥳𝘼𝙇𝙊𝙉𝙀- 𝙈𝘿❤️━━┓
+┃   Dev: TOPU TECH 
+┃   User : ${s.OWNER_NAME}
+┃
+┣━🫣🤗𝙷𝚎𝚕𝚕𝚘 𝚖𝚢 𝚏𝚛𝚒𝚎𝚗𝚍 𝙸 𝚊𝚖 𝚑𝚊𝚙𝚙𝚢 𝚝𝚘 𝚜𝚎𝚎 𝚢𝚘𝚞 𝚊𝚐𝚊𝚒𝚗 ❣️❣️𒈒━➠
+┗━━━𒈒❣️❣️❣️❣️❣️𒈒━━┛
+
+
+┏━━━━━━━━━━━━━━┓
+┣༆Alone md  
+┣༆😊T𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝙼𝙴𝙽𝚄 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚊𝚜𝚔𝚒𝚗𝚐 𝚏𝚘𝚛❣️
+┗━━━━━━━━━━━━━━┛
     ▸ *date *: ${date}
     ▸ *prefix* : ${s.PREFIXE}
     ▸ *worktype* : ${mode} mode
