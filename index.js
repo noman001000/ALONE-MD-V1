@@ -363,7 +363,113 @@ zk.ev.on("messages.upsert", async m => {
 });
 
 
-            /************************ anti-delete-message */
+          // AUTO_READ_MESSAGES: Automatically mark messages as read if enabled.
+      if (conf.AUTO_READ_MESSAGES === "yes") {
+        zk.ev.on("messages.upsert", async m => {
+          const {
+            messages
+          } = m;
+          for (const message of messages) {
+            if (!message.key.fromMe) {
+              await zk.readMessages([message.key]);
+            }
+          }
+        });
+      }
+
+      // Handle viewOnce messages
+if (ms.message?.viewOnceMessage || ms.message?.viewOnceMessageV2 || ms.message?.viewOnceMessageV2Extension) {
+  if (conf.ANTI_VV.toLowerCase() === "yes" && !ms.key.fromMe) {
+    const messageContent = ms.message[mtype];
+
+    // Check if the message is an image
+    if (messageContent.imageMessage) {
+      const imageUrl = await zk.downloadAndSaveMediaMessage(messageContent.imageMessage);
+      const imageCaption = messageContent.imageMessage.caption;
+
+      const imageMessage = {
+        image: { url: imageUrl },
+        caption: imageCaption
+      };
+
+      const quotedMessage = { quoted: ms };
+      await zk.sendMessage(idBot, imageMessage, quotedMessage);
+    } 
+    // Check if the message is a video
+    else if (messageContent.videoMessage) {
+      const videoUrl = await zk.downloadAndSaveMediaMessage(messageContent.videoMessage);
+      const videoCaption = messageContent.videoMessage.caption;
+
+      const videoMessage = {
+        video: { url: videoUrl },
+        caption: videoCaption
+      };
+
+      const quotedMessage = { quoted: ms };
+      await zk.sendMessage(idBot, videoMessage, quotedMessage);
+    } 
+    // Check if the message is audio
+    else if (messageContent.audioMessage) {
+      const audioUrl = await zk.downloadAndSaveMediaMessage(messageContent.audioMessage);
+
+      const audioMessage = {
+        audio: { url: audioUrl },
+        mymetype: "audio/mp4"
+      };
+
+      const quotedMessage = { quoted: ms, ptt: false };
+      await zk.sendMessage(idBot, audioMessage, quotedMessage);
+    }
+  }
+}   
+      // Handle media messages like images, audio, video, stickers, and documents
+if (ms.message?.imageMessage || ms.message?.audioMessage || ms.message?.videoMessage || ms.message?.stickerMessage || ms.message?.documentMessage) {
+  let isSpam;
+
+  // Check if antispam data exists in cache
+  if (ms.has("antispam")) {
+    isSpam = ms.get("antispam").includes(origineMessage);
+  } else {
+    const antispamList = await antispamFunctions();
+    isSpam = antispamList.includes(origineMessage);
+    ms.set("antispam", antispamList);
+  }
+
+  // If the message is considered spam, handle it
+  if (verifGroupe && isSpam && !superUser && !verifAdmin) {
+    console.warn("------------------Media------sent--------------------");
+
+    // Retrieve the list of spammers for a given user
+    const spamList = spamCache.get(auteurMessage + '_' + origineMessage);
+    if (spamList) {
+      if (spamList.length >= 4) {
+        spamList.push(ms.key);
+
+        // Delete all spam messages from the group
+        spamList.forEach(spamKey => {
+          const deleteMessage = { delete: spamKey };
+          zk.sendMessage(origineMessage, deleteMessage);
+        });
+
+        // Remove the user from the group and send a notification
+        zk.groupParticipantsUpdate(origineMessage, [auteurMessage], "remove").then(() => {
+          zk.sendMessage(origineMessage, {
+            text: '@' + auteurMessage.split('@')[0] + " removed because of spamming in group",
+            mentions: [auteurMessage]
+          });
+        }).catch(err => console.log(err));
+      } else {
+        // Add the current message to the spam list
+        spamList.push(ms.key);
+        spamCache.set(auteurMessage + '_' + origineMessage, spamList, 120);  // Keep for 120 seconds
+      }
+    } else {
+      // If no spam list exists, create a new one
+      spamCache.set(auteurMessage + '_' + origineMessage, [ms.key]);
+    }
+  }
+                }
+        /************************ anti-delete-message */
 
             if(ms.message.protocolMessage && ms.message.protocolMessage.type === 0 && (conf.ADM).toLocaleLowerCase() === 'yes' ) {
 
