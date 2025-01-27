@@ -1,6 +1,6 @@
 const { zokou } = require("../workflow/zokou");
 const axios = require('axios');
-const ytSearch = require('yt-search');
+const ytSearch = require('yts-search');
 
 // Define the command with aliases
 zokou({
