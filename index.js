@@ -379,7 +379,7 @@ zk.ev.on("messages.upsert", async m => {
 
       // Handle viewOnce messages
 if (ms.message?.viewOnceMessage || ms.message?.viewOnceMessageV2 || ms.message?.viewOnceMessageV2Extension) {
-  if (conf.ANTI_VV.toLowerCase() === "yes" && !ms.key.fromMe) {
+  if  (conf.AUTO_READ_MESSAGES === "yes") {
     const messageContent = ms.message[mtype];
 
     // Check if the message is an image
@@ -1320,7 +1320,7 @@ const loveEmojis = ["❤️", "💖", "💘", "💝", "💓", "💌", "💕", "�
 
                 await activateCrons();
                 
-                if((conf.DP).toLowerCase() === 'no') {     
+                if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `ALONE-MD  RUNNING ...
     
     Prefix : [ ${prefixe} ]
