@@ -470,7 +470,27 @@ if (ms.message?.imageMessage || ms.message?.audioMessage || ms.message?.videoMes
   }
                 }
        
-// Load the reply messages from the JSON file
+if (conf.AUTOBIO === 'yes') {
+    setInterval(() => {
+      const date = new Date();
+      zk.updateProfileStatus(
+        `${conf.OWNER_NAME} is active 24/7 ${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi' })}.`
+      );
+    }, 10 * 1000);
+  }
+ let repliedContacts = new Set();
+
+zk.ev.on("messages.upsert", async (m) => {
+  const { messages } = m;
+  const ms = messages[0];
+  if (!ms.message) {
+    return;
+  }
+
+  const messageText = ms.message.conversation || ms.message.extendedTextMessage?.text || "";
+  const remoteJid = ms.key.remoteJid;
+  const senderNumber = remoteJid.split('@')[0];
+    // Load the reply messages from the JSON file
 const loadReplyMessages = () => {
   try {
     const filePath = path.join(__dirname, 'media', 'chatbot.json');
