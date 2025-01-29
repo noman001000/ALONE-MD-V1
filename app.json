@@ -27,6 +27,11 @@
       "value": "yes",
       "required": false
     },
+    "AUTOBIO": {
+      "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
+      "value": "yes",
+      "required": false
+    },
     "AUTO_LIKE_STATUS": {
       "description": "Your contact status will be liked automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
