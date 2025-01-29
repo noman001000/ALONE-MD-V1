@@ -173,22 +173,8 @@ zokou({
             showAdAttribution: true,
           },
         },
-      },
-      {
-        document: { url: downloadUrl },
-        mimetype: 'video/mp4',
-        contextInfo: {
-          externalAdReply: {
-            title: videoDetails.title,
-            body: videoDetails.title,
-            mediaType: 1,
-            sourceUrl: conf.GURL,
-            thumbnailUrl: firstVideo.thumbnail,
-            renderLargerThumbnail: false,
-            showAdAttribution: true,
-          },
-        },
       }
+      
     ];
 
     // Send the download link to the user
