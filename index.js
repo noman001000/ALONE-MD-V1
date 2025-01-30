@@ -1341,7 +1341,7 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
                 console.log("ℹ️ ALONE-MD connecting in your account...");
             }
             else if (connection === 'open') {
-                await zk.groupAcceptInvite("DizrXzN1o1k0HsrWay5hvX");
+    
                 console.log("✅ ALONE-MD connected successfully☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
@@ -1379,7 +1379,7 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
 
                 await activateCrons();
                 
-                if((conf.DP).toLowerCase() === 'yes') {     
+                if((conf.DP).toLowerCase() === 'no') {     
                 let cmsg = `ALONE-MD  RUNNING ...
     
     Prefix : [ ${prefixe} ]
