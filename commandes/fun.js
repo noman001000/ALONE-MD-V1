@@ -2,7 +2,7 @@
 const { zokou } = require('../framework/zokou');
 const axios = require('axios');
 const conf = require(__dirname + "/../set");
-const { dare, truth, random_question, amount_of_questions } = require('../media/truthdare.js');
+const { dare, truth, random_question, amount_of_questions } = require('../framework/truth-dare.js');
 zokou({
   nomCom: "advice",
   aliases: ["wisdom", "wise"],
@@ -589,4 +589,4 @@ zokou({
     console.log(error);
     repondre("❌ *Error!* " + error.message);
   }
-})
+      }
