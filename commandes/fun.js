@@ -2,7 +2,7 @@
 const { zokou } = require('../framework/zokou');
 const axios = require('axios');
 const conf = require(__dirname + "/../set");
-const { dare, truth, random_question, amount_of_questions } = require('../media/truth-dare.js');
+const { dare, truth, random_question, amount_of_questions } = require('../media/truthdare.js');
 zokou({
   nomCom: "advice",
   aliases: ["wisdom", "wise"],
