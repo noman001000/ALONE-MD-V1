@@ -39,7 +39,7 @@ async function loading(dest, zk) {
   }
 }
 
-keith({
+zokou({
   //nomCom: "test",
   aliases: ["alive", "testing"],
   categorie: "system",
@@ -252,7 +252,7 @@ zokou({
   });
 });
 
-keith(
+zokou(
   {
    // nomCom: 'ping',
     aliases: ['speed', 'latency'],
@@ -367,7 +367,7 @@ zokou({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "https://github.com/Keithkeizzah/ALPHA-MD/tarball/main",
+            url: "https://github.com/Toputech/ALONE-MD-V1/tarball/main",
           },
         },
         {
@@ -379,7 +379,7 @@ zokou({
       );
 
       // Notify the user about the update and redeployment
-      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of ALPHA-MD.*");
+      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of ALONE-MD.*");
       console.log("Build details:", response.data);
     } catch (error) {
       // Handle any errors during the redeployment process
