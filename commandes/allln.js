@@ -52,7 +52,7 @@ zokou({
           mediaUrl: thumb,
           mediaType: 1,
           thumbnailUrl: thumb,
-          title: "Alpha APK Download",
+          title: "ALONE MD APK DOWNLOADER",
           body: appDetails.BK9.name,
           sourceUrl: conf.GURL, // Using configured source URL
           showAdAttribution: true
