@@ -136,7 +136,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alpha owner 💀*");
+    return repondre("*This command is restricted to the bot owner or Alone owner 💀*");
   }
 
   const appname = s.HEROKU_APP_NAME;
