@@ -37,10 +37,23 @@ const date = moment().format('DD/MM/YYYY');
 *ALONE MD AVAILABLE MENUS* 
 
 
-    ▸ *commander* : ${cm.length} 
-    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-    ▸ *uptime* : ${os.platform()}
-    ▸ *theme* : *TOPU TECH*
+╭━━━ 〔 •ＡＬＯＮＥ ~ ＭＤ• 〕━━━┈⊷
+┃✵╭───────────────
+┃✵│▸ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
+┃✵│▸ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
+┃✵│▸ *ᴛɪᴍᴇ:* ${formattedTime}
+┃✵│▸ *ᴄᴏᴍᴍᴀɴᴅꜱ:* ${commands.length}
+┃✵│▸ *ᴅᴀᴛᴇ:* ${formattedDate}
+┃✵│▸ *ᴍᴏᴅᴇ:* ${mode}
+┃✵│▸ *ᴛɪᴍᴇ ᴢᴏɴᴇ:* Africa/Arusha
+┃✵│▸ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${formattedTotalUsers} users
+┃✵│▸ *ʀᴀᴍ:* ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃✵│▸ *ᴜᴘᴛɪᴍᴇ:* ${formatUptime(process.uptime())}
+┃✵╰───────────────
+╰━━━━━━━━━━━━━━━┈⊷
+━━━━━━━━━━━━━━━━
+
+> © ᴛᴏᴘᴜ ᴛᴇᴄʜ
 
 > ALONE❣️ MD WA BOT
 > POWERED BY TOPU TECH 💎\n${readmore}`;
