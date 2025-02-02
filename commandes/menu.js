@@ -3,7 +3,7 @@
 
 const axios = require("axios");
 const { zokou } = require(__dirname + "/../framework/zokou");
-const { format } = require(__dirname + "/../keizzah/mesfonctions");
+const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require('os');
 const moment = require("moment-timezone");
 const settings = require(__dirname + "/../set");
@@ -108,7 +108,7 @@ const getRandomQuote = () => {
     return quotes[randomIndex];
 };
 
-// Keith command handler for 'menu' command
+// alone command handler for 'menu' command
 zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie: "SYSTEM" }, async (message, client, config) => {
     const { ms, respond, prefix, nomAuteurMessage } = config;
     const commands = require(__dirname + "/../workflow/zokou").cm;
@@ -195,7 +195,7 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
                 externalAdReply: {
                     title: "🌟ＡＬＯＮＥ ＭＤ✨",
                     body: "POWERED BY TOPUTECH",
-                    thumbnailUrl: "https://i.imgur.com/jE8eQsP.jpeg",
+                    thumbnailUrl: "conf.GURL",
                     sourceUrl: "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r",
                     mediaType: 1,
                     renderLargerThumbnail: true
