@@ -32,7 +32,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
-
+let sourceUrl= conf.GURL,
   let infoMsg =  `
 *ALONE MD AVAILABLE MENUS* 
 
