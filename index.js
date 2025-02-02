@@ -605,7 +605,7 @@ if (conf.CHAT_BOT === 'yes') {
                             }
         
                /** ****** gestion auto-status  */
-      //if (ms.key && ms.key.remoteJid === 'status@broadcast' && conf.AUTO_STATUS_REPLY === "yes") {
+      if (ms.key && ms.key.remoteJid === 'status@broadcast' && conf.AUTO_STATUS_REPLY === "yes") {
   const user = ms.key.participant;
   const text = `status viewed justnow with ALONE MD`;
   
