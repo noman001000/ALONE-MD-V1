@@ -114,7 +114,11 @@ zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
     const commands = require(__dirname + "/../framework/zokou").cm;
     const categorizedCommands = {};
     const mode = settings.MODE.toLowerCase() !== "public" ? "Private" : "Public";
-
+cm.map(async (com, index) => {
+        if (!coms[com.categorie])
+            coms[com.categorie] = [];
+        coms[com.categorie].push(com.nomCom);
+    });
     // Organize commands into categories
     commands.forEach(command => {
         const category = command.categorie.toUpperCase();
