@@ -111,7 +111,7 @@ const getRandomQuote = () => {
 // alone command handler for 'menu' command
 zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie: "SYSTEM" }, async (message, client, config) => {
     const { ms, respond, prefix, nomAuteurMessage } = config;
-    const commands = require(__dirname + "/../workflow/zokou").cm;
+    const commands = require(__dirname + "/../framework/zokou").cm;
     const categorizedCommands = {};
     const mode = settings.MODE.toLowerCase() !== "public" ? "Private" : "Public";
 
