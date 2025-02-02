@@ -3,7 +3,7 @@
 
 const axios = require("axios");
 const { zokou } = require(__dirname + "/../framework/zokou");
-const { format } = require(__dirname + "/../framework/mesfonctions");
+const { format } = require(__dirname + "/../keizzah/mesfonctions");
 const os = require('os');
 const moment = require("moment-timezone");
 const settings = require(__dirname + "/../set");
@@ -108,17 +108,13 @@ const getRandomQuote = () => {
     return quotes[randomIndex];
 };
 
-// alone command handler for 'menu' command
+// Keith command handler for 'menu' command
 zokou({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie: "SYSTEM" }, async (message, client, config) => {
     const { ms, respond, prefix, nomAuteurMessage } = config;
-    const commands = require(__dirname + "/../framework/zokou").cm;
+    const commands = require(__dirname + "/../workflow/zokou").cm;
     const categorizedCommands = {};
     const mode = settings.MODE.toLowerCase() !== "public" ? "Private" : "Public";
-cm.map(async (com, index) => {
-        if (!coms[com.categorie])
-            coms[com.categorie] = [];
-        coms[com.categorie].push(com.nomCom);
-    });
+
     // Organize commands into categories
     commands.forEach(command => {
         const category = command.categorie.toUpperCase();
@@ -199,7 +195,7 @@ cm.map(async (com, index) => {
                 externalAdReply: {
                     title: "🌟ＡＬＯＮＥ ＭＤ✨",
                     body: "POWERED BY TOPUTECH",
-                    thumbnailUrl: "conf.GURL",
+                    thumbnailUrl: "https://i.imgur.com/jE8eQsP.jpeg",
                     sourceUrl: "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r",
                     mediaType: 1,
                     renderLargerThumbnail: true
