@@ -49,3 +49,4 @@ module.exports = {
   truth,
   random_question,
   amount_of_questions
+}
