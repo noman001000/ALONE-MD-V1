@@ -63,7 +63,21 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TOPU MD👑*, déveloper TOPU TECH" }, { quoted: ms });
+        const senderName = message.sender || message.from;
+        await client.sendMessage(message, {
+            text: responseMessage + commandsList,
+            contextInfo: {
+                mentionedJid: [senderName],
+                externalAdReply: {
+                    title: "🌟ＡＬＯＮＥ ＭＤ✨",
+                    body: "POWERED BY TOPUTECH",
+                    thumbnailUrl: "https://i.imgur.com/jE8eQsP.jpeg",
+                    sourceUrl: "setting.gurl",
+                    mediaType: 1,
+                    renderLargerThumbnail: true
+                }
+            }
+        });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
