@@ -71,8 +71,8 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
                 externalAdReply: {
                     title: "🌟ＡＬＯＮＥ ＭＤ✨",
                     body: "POWERED BY TOPUTECH",
-                    thumbnailUrl: "https://i.imgur.com/jE8eQsP.jpeg",
-                    sourceUrl: "setting.gurl",
+                    thumbnailUrl: settings.URL,
+                    sourceUrl:settings.GURL,
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
