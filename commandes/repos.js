@@ -5,7 +5,7 @@ const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
   const githubRepo = 'https://api.github.com/repos/Toputech/ALONE-MD-V1';
   const img = 'https://files.catbox.moe/guk624.jpg';
-
+  const thumbnail= conf.gurl;
   try {
     const response = await fetch(githubRepo);
     const data = await response.json();
@@ -47,7 +47,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
 __________________________________
              ❣️ ©Toputech `;
 
-      await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
+      await zk.sendMessage(dest, { image: { url: img }, thumbnail:{url:thumbnail}, caption: gitdata });
     } else {
       console.log("Could not fetch data");
     }
