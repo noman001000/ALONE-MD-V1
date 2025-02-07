@@ -26,13 +26,13 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
       ᴏᴜʀ ᴍɪssɪᴏɴ ɪs ᴛᴏ ʟᴇᴛ ʏᴏᴜ ᴇɴᴊᴏʏ ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ.... ɪ ʟᴏᴠᴇ ʏᴏᴜ 💘'
       \n support : ,  https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r
 
-🗼 *REPOSITORY:* ${data.html_url}
-🌟 *STARS:* ${repoInfo.stars}
-🧧 *FORKS:* ${repoInfo.forks}
-📅 *RELEASE DATE:* ${releaseDate}
-🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-👨‍💻 *OWNER:* *Topu tech*
-💞 *THEME:* *TOPU*
+🗼 *𝗥𝗘𝗣𝗢𝗦𝗜𝗧𝗢𝗥𝗬:* ${data.html_url}
+🌟 *𝗦𝗧𝗔𝗥𝗦:* ${repoInfo.stars}
+🧧 *𝗙𝗢𝗥𝗞𝗦:* ${repoInfo.forks}
+📅 *𝗥𝗘𝗟𝗘𝗔𝗦𝗘 𝗗𝗔𝗧𝗘:* ${releaseDate}
+🕐 *𝗨𝗣𝗗𝗔𝗧𝗘𝗗 𝗢𝗡:* ${repoInfo.lastUpdate}
+👨‍💻 *𝗢𝗪𝗡𝗘𝗥:* *Topu tech*
+💞 *𝗧𝗛𝗘𝗠𝗘:* *TOPU*
 🥰 *𝚂𝚒𝚗𝚌𝚎 𝚢𝚘𝚞 𝚑𝚊𝚟𝚎 𝚖𝚎, 𝚢𝚘𝚞'𝚕𝚕 𝚗𝚎𝚟𝚎𝚛 𝚏𝚎𝚎𝚕 𝚊𝚕𝚘𝚗𝚎 !* ❣️
 __________________________________
             * ❣️ ©Toputech* `;
