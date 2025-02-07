@@ -21,7 +21,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 
     
 
-       cm.map(async (com, index) => {
+    cm.map(async (com, index) => {
         if (!coms[com.categorie])
             coms[com.categorie] = [];
         coms[com.categorie].push(com.nomCom);
@@ -34,53 +34,27 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
+*ALONE MD AVAILABLE MENUS* 
 
 
-┏━━ 🥳𝘼𝙇𝙊𝙉𝙀- 𝙈𝘿❤️━━┓
-┃   Dev: TOPU TECH 
-┃   User : ${s.OWNER_NAME}
-┃
-┣━🫣🤗𝙷𝚎𝚕𝚕𝚘 𝚖𝚢 𝚏𝚛𝚒𝚎𝚗𝚍 𝙸 𝚊𝚖 𝚑𝚊𝚙𝚙𝚢 𝚝𝚘 𝚜𝚎𝚎 𝚢𝚘𝚞 𝚊𝚐𝚊𝚒𝚗 ❣️❣️𒈒━➠
-┗━━━𒈒❣️❣️❣️❣️❣️𒈒━━┛
-
-
-┏━━━━━━━━━━━━━━┓
-┣༆Alone md  
-┣༆😊T𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝙼𝙴𝙽𝚄 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚊𝚜𝚔𝚒𝚗𝚐 𝚏𝚘𝚛❣️
-┗━━━━━━━━━━━━━━┛
-    ▸ *date *: ${date}
-    ▸ *prefix* : ${s.PREFIXE}
-    ▸ *worktype* : ${mode} mode
-    ▸ *plugin* : ${cm.length} 
+    ▸ *commander* : ${cm.length} 
     ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-    ▸ *running on* : ${os.platform()}
-    ▸ *theme* : *TOPU*
+    ▸ *uptime* : ${os.platform()}
+    ▸ *theme* : *TOPU TECH*
 
-> ALONE MD 2025\n${readmore}`;
+> ALONE❣️ MD WA BOT
+> POWERED BY TOPU TECH 💎\n${readmore}`;
     
 let menuMsg = `
-
- * ALONE Md COMMADS *${readmore}
-`;
-
-    for (const cat in coms) {
-        menuMsg += ` ╭──────✣ *${cat}* ✣─────☹︎`;
-        for (const cmd of coms[cat]) {
-            menuMsg += `
-│❤️│ ${cmd}`;
-        }
-        menuMsg += `
-╰────────────···▸▸ \n`
-    }
-
-    menuMsg += `> powered by TOPU TECH
-`;
+> Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
+  
+╰───────────────────⏣`;
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Boniphacemd*, déveloper Boniphace Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -90,7 +64,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: img }, caption:infoMsg + menuMsg, footer: "Je suis *Boniphacemd*, déveloper Fredie Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TOPU MD👑*, déveloper TOPU TECH" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -103,4 +77,4 @@ else {
     
 }
 
-});
+}); 
