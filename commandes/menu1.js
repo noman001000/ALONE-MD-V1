@@ -49,6 +49,7 @@ let menuMsg = `
 > Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
   
 ╰───────────────────⏣`;
+    let sourceUrl= conf.GURL;
 
    var lien = mybotpic();
 
@@ -76,7 +77,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 } 
 else {
     
-    repondre(infoMsg + menuMsg);
+    repondre(infoMsg + menuMsg + sourceUrl );
     
 }
 
