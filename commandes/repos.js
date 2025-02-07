@@ -46,7 +46,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "✨", nomFichier: __f
 __________________________________
              ❣️ ©Toputech `;
 
-      await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
+      await zk.sendMessage(dest, { image: { url: img }, caption: gitdata ,sourceUrl: conf.GURL });
     } else {
       console.log("Could not fetch data");
     }
