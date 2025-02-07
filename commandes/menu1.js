@@ -65,7 +65,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
         const senderName = message.sender || message.from;
         await client.sendMessage(message, {
-            text: responseMessage + commandsList,
+            text: infoM + menuMsg,
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
@@ -86,7 +86,23 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 } 
 else {
     
-    repondre(infoMsg + menuMsg);
+    repondre(try {
+        const senderName = message.sender || message.from;
+        await client.sendMessage(message, {
+            text: infoMsg + menuMsg,
+            contextInfo: {
+                mentionedJid: [senderName],
+                externalAdReply: {
+                    title: "🌟ＡＬＯＮＥ ＭＤ✨",
+                    body: "POWERED BY TOPUTECH",
+                    thumbnailUrl: settings.URL,
+                    sourceUrl:settings.GURL,
+                    mediaType: 1,
+                    renderLargerThumbnail: true
+                }
+            }
+        });
+            });
     
 }
 
