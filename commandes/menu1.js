@@ -71,8 +71,8 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
                 externalAdReply: {
                     title: "🌟ＡＬＯＮＥ ＭＤ✨",
                     body: "POWERED BY TOPUTECH",
-                    thumbnailUrl: settings.URL,
-                    sourceUrl:settings.GURL,
+                    thumbnailUrl: conf.GURL,
+                    sourceUrl:conf.GURL,
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
@@ -86,7 +86,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 } 
 else {
     
-    repondre(infoMsg + conf.GURL);
+    repondre(infoMsg + menuMsg);
             });
     
 }
