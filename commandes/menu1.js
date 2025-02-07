@@ -77,7 +77,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 } 
 else {
     
-    repondre(infoMsg + menuMsg + sourceUrl );
+    repondre(infoMsg + menuMsg  );
     
 }
 
