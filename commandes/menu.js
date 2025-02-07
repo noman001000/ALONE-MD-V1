@@ -137,21 +137,10 @@ zokou({ nomCom: "menu3", aliases: ["liste", "helplist", "commandlist"], categori
 
 
 *${randomQuote}*
-
-╭━━━ 〔 *${settings.BOT}* 〕━━━┈⊷
-┃✵╭──────────────
-┃✵│▸ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
-┃✵│▸ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
-┃✵│▸ *ᴛɪᴍᴇ:* ${formattedTime}
-┃✵│▸ *ᴄᴏᴍᴍᴀɴᴅꜱ:* ${commands.length} 
-┃✵│▸ *ᴅᴀᴛᴇ:* ${formattedDate}
-┃✵│▸ *ᴍᴏᴅᴇ:* ${mode}
-┃✵│▸ *ᴛɪᴍᴇ ᴢᴏɴᴇ:* Africa/Dodoma
-┃✵│▸ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${formattedTotalUsers} users
-┃✵│▸ *ʀᴀᴍ:* ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃✵│▸ *ᴜᴘᴛɪᴍᴇ:* ${formatUptime(process.uptime())}
-┃✵╰──────────────
-╰━━━━━━━━━━━━━━━┈⊷
+    ▸ *commands* : ${cm.length} 
+    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+    ▸ *Runner* : ${os.platform()}
+    ▸ *theme* : *TOPU TECH*
 
 *${randomQuote}*
 
