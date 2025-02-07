@@ -64,7 +64,7 @@ let menuMsg = `
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
         const senderName = message.sender || message.from;
-        await client.sendMessage(message, {
+        await zk.sendMessage(message, {
             text: infoMsg + menuMsg,
             contextInfo: {
                 mentionedJid: [senderName],
