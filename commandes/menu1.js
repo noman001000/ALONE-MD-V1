@@ -65,7 +65,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
         const senderName = message.sender || message.from;
         await client.sendMessage(message, {
-            text: infoM + menuMsg,
+            text: infoMsg + menuMsg,
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
