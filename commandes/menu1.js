@@ -71,7 +71,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
                 externalAdReply: {
                     title: "🌟ＡＬＯＮＥ ＭＤ✨",
                     body: "POWERED BY TOPUTECH",
-                    thumbnailUrl: conf.GURL,
+                    thumbnailUrl: conf.URL,
                     sourceUrl:conf.GURL,
                     mediaType: 1,
                     renderLargerThumbnail: true
@@ -85,9 +85,21 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     }
 } 
 else {
-    
-    repondre(infoMsg + menuMsg);
-            });
+    const senderName = message.sender || message.from;
+        await zk.sendMessage(message, {
+            text: infoMsg + menuMsg,
+            contextInfo: {
+                mentionedJid: [senderName],
+                externalAdReply: {
+                    title: "🌟ＡＬＯＮＥ ＭＤ✨",
+                    body: "POWERED BY TOPUTECH",
+                    thumbnailUrl: conf.URL,
+                    sourceUrl:conf.GURL,
+                    mediaType: 1,
+                    renderLargerThumbnail: true
+                }
+            }
+        });});
     
 }
 
