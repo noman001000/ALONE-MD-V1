@@ -5,6 +5,13 @@ const axios = require("axios");
 const speed = require("performance-now");
 const { exec } = require("child_process");
 const conf = require(__dirname + "/../set");
+const util = require('util');
+const fs = require('fs-extra');
+const { format } = require(__dirname + "/../framework/mesfonctions");
+const os = require("os");
+const moment = require("moment-timezone");
+const more = String.fromCharCode(8206)
+const readmore = more.repeat(4001)
 zokou({
   nomCom: 'oxy',
   aliases: ['logs', 'running'],
