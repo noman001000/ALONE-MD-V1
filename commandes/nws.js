@@ -62,16 +62,24 @@ let menuMsg = `
 ╰───────────────────⏣`;
     
   // Send uptime information to the user
-  await zk.sendMessage(dest, {
-    text: (infoMsg + menuMsg),
-    contextInfo: {
-      externalAdReply: {
-        title: `ALONE-MD`,
-        body: `Bot Uptime: ${runtime(botUptime)}`, // Format the uptime before sending
-        thumbnailUrl: conf.URL, // Replace with your bot profile photo URL
-        sourceUrl: conf.GURL, // Your channel URL
-        mediaType: 1,
-        showAdAttribution: true, // Verified badge
-      },
-    },
-  }));
+  try {
+        const senderName = message.sender || message.from;
+        await zk.sendMessage(message, {
+            text: infomsg + menuMsg,
+            contextInfo: {
+                mentionedJid: [senderName],
+                externalAdReply: {
+                    title: s.BOT,
+                    body: s.OWNER_NAME,
+                    thumbnailUrl: s.URL,
+                    sourceUrl: s.GURL,
+                    mediaType: 1,
+                    renderLargerThumbnail: true
+                }
+            }
+        });
+    } catch (error) {
+        console.error("Menu error: ", error);
+        respond("🥵🥵 Menu error: " + error);
+    }
+});
