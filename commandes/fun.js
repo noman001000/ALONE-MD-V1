@@ -1,4 +1,4 @@
-
+Object.defineProperty(exports, "__esModule", { value: false });
 const { zokou } = require('../framework/zokou');
 const axios = require('axios');
 const conf = require(__dirname + "/../set");
