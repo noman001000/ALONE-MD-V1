@@ -41,8 +41,7 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     ▸ *uptime* : ${os.platform()}
     ▸ *theme* : *TOPU TECH*
-    ⏲️ ᴛɪᴍᴇ: ${temps}
-    📅 ᴅᴀᴛᴇ: ${date} 
+
 > ALONE❣️ MD WA BOT
 > POWERED BY TOPU TECH 💎\n${readmore}`;
     
