@@ -1,3 +1,4 @@
+"use strict";
 Object.defineProperty(exports, "__esModule", { value: false });
 const { zokou } = require('../framework/zokou');
 const axios = require('axios');
