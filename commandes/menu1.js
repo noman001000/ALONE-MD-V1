@@ -41,7 +41,8 @@ const date = moment().format('DD/MM/YYYY');
     ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
     ▸ *uptime* : ${os.platform()}
     ▸ *theme* : *TOPU TECH*
-
+    ⏲️ ᴛɪᴍᴇ: ${temps}
+    📅 ᴅᴀᴛᴇ: ${date} 
 > ALONE❣️ MD WA BOT
 > POWERED BY TOPU TECH 💎\n${readmore}`;
     
@@ -49,7 +50,6 @@ let menuMsg = `
 > Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
   
 ╰───────────────────⏣`;
-    let sourceUrl= conf.GURL;
 
    var lien = mybotpic();
 
@@ -65,10 +65,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg,thumbnailUrl: conf.URL,
-        sourceUrl: conf.GURL, // Corrected variable name
-        mediaType: 1,
-        renderLargerThumbnail: true, footer: "Je suis *TOPU MD👑*, déveloper TOPU TECH" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *TOPU MD👑*, déveloper TOPU TECH" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -77,7 +74,7 @@ else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
 } 
 else {
     
-    repondre(infoMsg + menuMsg  );
+    repondre(infoMsg + menuMsg);
     
 }
 
