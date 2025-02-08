@@ -20,17 +20,53 @@ zokou({
   reaction: '❤️',
   fromMe: true, // Removed quotes to make it a boolean
 }, async (dest, zk, commandeOptions) => {
-  const { ms, arg, repondre } = commandeOptions;
+    let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
+    let { cm } = require(__dirname + "/../framework//zokou");
+    var coms = {};
+    var mode = "public";
+    
+    if ((s.MODE).toLocaleLowerCase() != "yes") {
+        mode = "private";
+    }
 
-  // Get bot's runtime
-  const botUptime = process.uptime(); // Get the bot uptime in seconds
 
+    
+
+    cm.map(async (com, index) => {
+        if (!coms[com.categorie])
+            coms[com.categorie] = [];
+        coms[com.categorie].push(com.nomCom);
+    });
+
+    moment.tz.setDefault('Etc/GMT');
+
+// Créer une date et une heure en GMT
+const temps = moment().format('HH:mm:ss');
+const date = moment().format('DD/MM/YYYY');
+
+  let infoMsg =  `
+*ALONE MD AVAILABLE MENUS* 
+
+
+    ▸ *commander* : ${cm.length} 
+    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+    ▸ *uptime* : ${os.platform()}
+    ▸ *theme* : *TOPU TECH*
+
+> ALONE❣️ MD WA BOT
+> POWERED BY TOPU TECH 💎\n${readmore}`;
+    
+let menuMsg = `
+> Hello ${nomAuteurMessage},,, Type menu2 to access a list of commands. 
+  
+╰───────────────────⏣`;
+    
   // Send uptime information to the user
   await zk.sendMessage(dest, {
-    text: `*${conf.OWNER_NAME} UPTIME IS ${runtime(botUptime)}*`,
+    text: (infoMsg + menuMsg),
     contextInfo: {
       externalAdReply: {
-        title: `${conf.BOT} UPTIME`,
+        title: `ALONE-MD`,
         body: `Bot Uptime: ${runtime(botUptime)}`, // Format the uptime before sending
         thumbnailUrl: conf.URL, // Replace with your bot profile photo URL
         sourceUrl: conf.GURL, // Your channel URL
@@ -38,4 +74,4 @@ zokou({
         showAdAttribution: true, // Verified badge
       },
     },
-  });
+  }));
