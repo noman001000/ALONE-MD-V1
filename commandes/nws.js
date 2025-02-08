@@ -69,10 +69,10 @@ let menuMsg = `
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: s.BOT,
-                    body: s.OWNER_NAME,
-                    thumbnailUrl: s.URL,
-                    sourceUrl: s.GURL,
+                    title: `ALONE MD`,
+                    body: conf.OWNER_NAME,
+                    thumbnailUrl: conf.URL,
+                    sourceUrl: conf.GURL,
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
