@@ -69,7 +69,7 @@ let menuMsg = `
     menuMsg += `> powered by TOPU TECH
 `;
 
-   var lien = Mybotpic();
+   var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
