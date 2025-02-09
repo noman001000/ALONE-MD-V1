@@ -69,7 +69,7 @@ let menuMsg = `
     menuMsg += `> powered by TOPU TECH
 `;
 
-   var lien = 'https://files.catbox.moe/guk624.jpg'();
+   var lien = Mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
