@@ -44,7 +44,7 @@ const date = moment().format('DD/MM/YYYY');
 ┃♦│ ❑ ▸  *𝚁𝚊𝚖* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃♦│ ❑ ▸  *𝚁𝚞𝚗𝚗𝚒𝚗𝚐 𝚘𝚗* : ${os.platform()}
 ┃♦│ ❑ ▸  *𝙾𝚠𝚗𝚎𝚛* : ${s.OWNER_NAME}
-┃♦│ ❑ ▸  *𝚄𝚙𝚝𝚒𝚖𝚎*: ${runtime(botUptime)}
+┃♦│ ❑ ▸  *𝚄𝚙𝚝𝚒𝚖𝚎*:
 ┃♦╰───────────────♦
 ╰━━━━━━━━━━━━━━━┈⊷♦
 
