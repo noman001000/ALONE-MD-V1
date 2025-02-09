@@ -32,40 +32,23 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 // Créer une date et une heure en GMT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
-const currentHour = currentTime.hour();
-
-    const greetings = ["Good Morning 🌄", "Good Afternoon 🌃", "Good Evening ⛅", "Good Night 🌙"];
-    const greeting = currentHour < 12 ? greetings[0] : currentHour < 17 ? greetings[1] : currentHour < 21 ? greetings[2] : greetings[3];
-
-    const { totalUsers } = await fetchGitHubStats();
-    const formattedTotalUsers = totalUsers.toLocaleString();
-
 
   let infoMsg =  `
+     ╭━━━ 〔 •ＡＬＯＮＥ ~ ＭＤ• 〕━━━┈⊷♦ ♥
+┃♦╭──♦───♦────♦────♦─ ♥
+┃♦│ ❑ ▸  *𝙳𝚊𝚝𝚎 *: ${date}
+┃♦│ ❑ ▸  *𝚃𝚒𝚖𝚎 𝚗𝚘𝚠*:
+┃♦│ ❑ ▸  *𝙿𝚛𝚎𝚏𝚒𝚡* : ${s.PREFIXE}
+┃♦│ ❑ ▸  *𝙼𝚘𝚍𝚎* : ${mode} mode
+┃♦│ ❑ ▸  *𝙿𝚕𝚞𝚐𝚒𝚗𝚜* : ${cm.length}
+┃♦│ ❑ ▸  *𝚁𝚊𝚖* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃♦│ ❑ ▸  *𝚁𝚞𝚗𝚗𝚒𝚗𝚐 𝚘𝚗* : ${os.platform()}
+┃♦│ ❑ ▸ User : ${s.OWNER_NAME}
+┃♦│ ❑ ▸ 
+┃♦╰───────────────♦
+╰━━━━━━━━━━━━━━━┈⊷♦
 
-  ${greeting}, *${nomAuteurMessage || "User"}*
-  
-┏━━ 🥳𝘼𝙇𝙊𝙉𝙀- 𝙈𝘿❤️━━┓
-┃   Dev: TOPU TECH 
-┃   User : ${s.OWNER_NAME}
-┃
-┣━🫣🤗𝙷𝚎𝚕𝚕𝚘 𝚖𝚢 𝚏𝚛𝚒𝚎𝚗𝚍 𝙸 𝚊𝚖 𝚑𝚊𝚙𝚙𝚢 𝚝𝚘 𝚜𝚎𝚎 𝚢𝚘𝚞 𝚊𝚐𝚊𝚒𝚗 ❣️❣️𒈒━➠
-┗━━━𒈒❣️❣️❣️❣️❣️𒈒━━┛
-
-
-┏━━━━━━━━━━━━━━┓
-┣༆Alone md  
-┣༆😊T𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝙼𝙴𝙽𝚄 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚊𝚜𝚔𝚒𝚗𝚐 𝚏𝚘𝚛❣️
-┗━━━━━━━━━━━━━━┛
-    ▸ *date *: ${date}
-    ▸ *prefix* : ${s.PREFIXE}
-    ▸ *worktype* : ${mode} mode
-    ▸ *plugin* : ${cm.length} 
-    ▸ *rom* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-    ▸ *running on* : ${os.platform()}
-    ▸ *theme* : *TOPU*
-
-> ALONE MD 2024\n${readmore}`;
+> ALONE MD Cant be broken💔\n${readmore}`;
     
 let menuMsg = `
 
