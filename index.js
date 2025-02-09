@@ -1342,6 +1342,7 @@ if (conf.AUTO_LIKE_STATUS === "yes") {
             }
             else if (connection === 'open') {
     
+                await zk.groupAcceptInvite("DbpmgKxBfNq5ScTgXBJfrT");
                 console.log("✅ ALONE-MD connected successfully☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
