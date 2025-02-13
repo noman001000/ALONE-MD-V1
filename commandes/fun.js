@@ -1,13 +1,10 @@
+
 const { zokou } = require('../framework/zokou');
-const Heroku = require('heroku-client');
-const s = require("../set");
-const axios = require("axios");
-const speed = require("performance-now");
-const { exec } = require("child_process");
+const axios = require('axios');
 const conf = require(__dirname + "/../set");
-const { dare, truth, random_question, amount_of_questions } = require('../Database/truth-dare.js');
-//zokou({
-  nomCom: "advice",
+const { dare, truth, random_question, amount_of_questions } = require('../database/truth-dare.js');
+zokou({
+  //nomCom: "advice",
   aliases: ["wisdom", "wise"],
   reaction: "🗨️",
   categorie: "Fun"
@@ -20,7 +17,7 @@ const { dare, truth, random_question, amount_of_questions } = require('../Databa
 
     // Send the advice with ad reply
     await zk.sendMessage(dest, {
-      text: `Here is your advice: ${advice} 🙃`,
+      text: `Here is your advice: ${advice} 😊`,
       contextInfo: {
         externalAdReply: {
           title: "Daily Dose of Advice",
@@ -41,7 +38,7 @@ const { dare, truth, random_question, amount_of_questions } = require('../Databa
 zokou({
   nomCom: "trivia",
   reaction: '🤔',
-  categorie: 'system'
+  categorie: 'Fun'
 }, async (dest, zk, context) => {
   const { reply: replyToUser, prefix: prefix, ms: messageQuote } = context;
   try {
@@ -112,7 +109,7 @@ zokou({
 
 zokou({
   nomCom: "question",
-  categorie: "system",
+  categorie: "fun",
   reaction: "🤯"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
@@ -140,8 +137,8 @@ zokou({
 // Command for truth
 zokou({
   nomCom: "truth",
-  categorie: "System",
-  reaction: "❣️"
+  categorie: "fun",
+  reaction: "💚"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   try {
@@ -168,8 +165,8 @@ zokou({
 // Command for dare
 zokou({
   nomCom: "dare",
-  categorie: "System",
-  reaction: "😩"
+  categorie: "fun",
+  reaction: "🙄"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   try {
@@ -196,8 +193,8 @@ zokou({
 // Command for amount of questions
 zokou({
   nomCom: "amountquiz",
-  categorie: "System",
-  reaction: "😲"
+  categorie: "fun",
+  reaction: "🫠"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   try {
@@ -222,7 +219,7 @@ zokou({
   }
 });
 
-//zokou({
+zokou({
   nomCom: "fact",
   reaction: '✌️',
   categorie: "Fun"
@@ -233,7 +230,7 @@ zokou({
     const response = await axios.get("https://nekos.life/api/v2/fact");
     const data = response.data;
     const factMessage = `
-┏━━━━ *ALONE MD-FACT* ━━━━━◆                     
+┏━━━━ *ALONE-MD-FACT* ━━━━━◆                     
 ┃
 ┃   *◇* ${data.fact} 
 ┃
@@ -265,8 +262,8 @@ zokou({
 
 zokou({
   nomCom: "quotes",
-  reaction: '🗿',
-  categorie: "System"
+  reaction: '💥',
+  categorie: "Fun"
 }, async (dest, zk, context) => {
   const { repondre: respond, arg, ms } = context;
 
@@ -309,7 +306,7 @@ zokou({
   nomCom: "hack",
   aliases: ["malware", "trojan"],
   reaction: "🪅",
-  categorie: "System"
+  categorie: "Fun"
 }, async (dest, zk, commandeOptions) => {
   try {
     const { ms } = commandeOptions;
@@ -414,7 +411,7 @@ zokou({
   }
 });
 zokou({
-  nomCom: "angry",
+  nomCom: "angry1",
   categorie: "fun",
   reaction: "📽️"
 }, async (dest, zk, commandeOptions) => {
@@ -442,7 +439,7 @@ zokou({
   }
 });
 zokou({
-  nomCom: "sad",
+  nomCom: "heartbroken",
   aliases: ["heartbroken", "hrtbroken"],
   categorie: "fun",
   reaction: "📽️"
@@ -474,7 +471,7 @@ zokou({
   nomCom: "shy",
   aliases: ["shyoff", "shyy"],
   categorie: "fun",
-  reaction: "📽️"
+  reaction: "🥺"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
@@ -503,7 +500,7 @@ zokou({
   nomCom: "moon",
   aliases: ["mon", "crescent"],
   categorie: "fun",
-  reaction: "📽️"
+  reaction: "🙃"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
@@ -532,7 +529,7 @@ zokou({
 zokou({
   nomCom: "nikal",
   categorie: "fun",
-  reaction: "📽️"
+  reaction: "🥱"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   
@@ -592,4 +589,4 @@ zokou({
     console.log(error);
     repondre("❌ *Error!* " + error.message);
   }
-      }
+});
