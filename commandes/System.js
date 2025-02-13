@@ -6,6 +6,7 @@ const axios = require("axios");
 const speed = require("performance-now");
 const { exec } = require("child_process");
 const conf = require(__dirname + "/../set");
+const { dare, truth, random_question, amount_of_questions } = require('../Database/truth-dare.js');
 // Function for delay simulation
 function delay(ms) {
   console.log(`⏱️ delay for ${ms}ms`);
@@ -394,6 +395,37 @@ zokou({
 });
 
 zokou({
+  nomCom: "advice",
+  aliases: ["wisdom", "wise"],
+  reaction: "🗨️",
+  categorie: "system"
+}, async (dest, zk, context) => {
+  const { reply: replyToUser, ms: messageQuote } = context;
+  try {
+    // Get advice from the API using axios
+    const response = await axios.get("https://api.adviceslip.com/advice");
+    const advice = response.data.slip.advice;
+
+    // Send the advice with ad reply
+    await zk.sendMessage(dest, {
+      text: `Here is your advice: ${advice} 🙃`,
+      contextInfo: {
+        externalAdReply: {
+          title: "Daily Dose of Advice",
+          body: "Here’s a little nugget of wisdom to brighten your day!",
+          thumbnailUrl: conf.URL,
+          sourceUrl: conf.GURL,
+          mediaType: 1,
+          showAdAttribution: true
+        }
+      }
+    }, { quoted: messageQuote });
+  } catch (error) {
+    console.error("Error fetching advice:", error.message || "An error occurred");
+    await replyToUser("Oops, an error occurred while processing your request.");
+  }
+})
+  zokou({
   nomCom: "fetch",
   aliases: ["get", "find"],
   categorie: "system",
