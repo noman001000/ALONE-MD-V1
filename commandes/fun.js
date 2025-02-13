@@ -1,10 +1,12 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: false });
 const { zokou } = require('../framework/zokou');
-const axios = require('axios');
+const Heroku = require('heroku-client');
+const s = require("../set");
+const axios = require("axios");
+const speed = require("performance-now");
+const { exec } = require("child_process");
 const conf = require(__dirname + "/../set");
 const { dare, truth, random_question, amount_of_questions } = require('../Database/truth-dare.js');
-zokou({
+//zokou({
   nomCom: "advice",
   aliases: ["wisdom", "wise"],
   reaction: "🗨️",
