@@ -1,4 +1,4 @@
-const { zokou } = require('../framework/zokou');
+qconst { zokou } = require('../framework/zokou');
 const Heroku = require('heroku-client');
 const s = require("../set");
 const axios = require("axios");
@@ -41,7 +41,7 @@ const { dare, truth, random_question, amount_of_questions } = require('../Databa
 zokou({
   nomCom: "trivia",
   reaction: '🤔',
-  categorie: 'Fun'
+  categorie: 'system'
 }, async (dest, zk, context) => {
   const { reply: replyToUser, prefix: prefix, ms: messageQuote } = context;
   try {
@@ -112,8 +112,8 @@ zokou({
 
 zokou({
   nomCom: "question",
-  categorie: "fun",
-  reaction: "👄"
+  categorie: "system",
+  reaction: "🤯"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   try {
@@ -140,8 +140,8 @@ zokou({
 // Command for truth
 zokou({
   nomCom: "truth",
-  categorie: "fun",
-  reaction: "👄"
+  categorie: "System",
+  reaction: "❣️"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   try {
@@ -168,8 +168,8 @@ zokou({
 // Command for dare
 zokou({
   nomCom: "dare",
-  categorie: "fun",
-  reaction: "👄"
+  categorie: "System",
+  reaction: "😩"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   try {
@@ -196,8 +196,8 @@ zokou({
 // Command for amount of questions
 zokou({
   nomCom: "amountquiz",
-  categorie: "fun",
-  reaction: "👄"
+  categorie: "System",
+  reaction: "😲"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, ms } = commandeOptions;
   try {
@@ -222,7 +222,7 @@ zokou({
   }
 });
 
-zokou({
+//zokou({
   nomCom: "fact",
   reaction: '✌️',
   categorie: "Fun"
@@ -266,7 +266,7 @@ zokou({
 zokou({
   nomCom: "quotes",
   reaction: '🗿',
-  categorie: "Fun"
+  categorie: "System"
 }, async (dest, zk, context) => {
   const { repondre: respond, arg, ms } = context;
 
@@ -309,7 +309,7 @@ zokou({
   nomCom: "hack",
   aliases: ["malware", "trojan"],
   reaction: "🪅",
-  categorie: "Fun"
+  categorie: "System"
 }, async (dest, zk, commandeOptions) => {
   try {
     const { ms } = commandeOptions;
