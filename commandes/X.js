@@ -49,7 +49,7 @@ let menuMsg = `
 > 📅 ᴅᴀᴛᴇ: ${date} 
 
 
-> Made by : ©Ibrahim Adams 
+> Made by : © ᴛᴏᴘᴜ ᴛᴇᴄʜ 
 `;
 
    var lien = mybotpic();
