@@ -26,23 +26,38 @@
 
 #### SETUP
 
-1. Fork the repo
-    <br>
-<a href='https://github.com/Toputech/ALONE-MD-V1/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+1.👇 Star and Fork This Repo  
+[![Star and Fork This Repo](https://img.shields.io/static/v1?label=Star%20%26%20Fork%20This%20Repo&message=GitHub&color=181717&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Toputech/ALONE-MD-V1/fork)  
+
+<br>
+
+2. (A)👇 Get Session ID Here for normal bot
+[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=white)](https://yesser.onrender.com) 
+
+ 
+ 2. (B) 👁️ get session id here for bottom bot
+ 
+ 
+[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=white)](https://yesser-scanner-8309ae116f64.herokuapp.com/) 
+
+ 
+ 
+ 
+ 
+ 
+<br>
+
+3.👇 Create Account on Heroku  
+[![Create Account on Heroku](https://img.shields.io/static/v1?label=Create%20Account&message=Heroku&color=430098&style=for-the-badge&logo=heroku&logoColor=red)](https://heroku.com)  
+
+<br>
+
+4.👇 Deploy to Heroku If your have account
+[![Deploy to Heroku](https://img.shields.io/static/v1?label=Deploy%20to&message=Heroku&color=430098&style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/Toputech/turn-meh)  
 
 
+   © Toputech 
 
-2. Get Session ID (By pairing code)
-   > 
-     <a href='https://alone-md-nkds.onrender.com/pair' target="_blank"><img alt='SESSION ID' src='https://img.shields.io/badge/Session_id-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
-
-
-
-3. Deploy on heroku
-    <br>
-<a href='https://dashboard.heroku.com/new?template=https://github.com/Toputech/turn-meh' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
    
 ## Supported Versions Node Versions to run this bot
