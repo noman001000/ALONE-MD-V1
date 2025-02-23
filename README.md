@@ -2,6 +2,8 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
  <h1 align="center"> A͛L͛O͛N͛E͛ M͛D͛ </h1>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+      
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=blue&lines=𝗔𝗠+VERY+ALONE+KINDLY+DEPLOY+ME😢)
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
