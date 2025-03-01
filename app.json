@@ -54,11 +54,12 @@
     },
     "ANTI_VV": {
       "description": "Detect view-once messages",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
-    "ANTILINK": {
-      "description": "Detect view-once links",
+ 
+    "GROUP_CONTROL": {
+      "description": "urs if you want bot yo control group features such as antilink,antispam,antibad",
       "value": "no",
       "required": false
     },
@@ -97,9 +98,14 @@
       "value": "Toputech",
       "required": false
     },
+    "AUTOBIO": {
+      "description": "insert yes if you needs an automatic bio",
+      "value": "yes",
+      "required": false
+    },
     "AUTO_READ_MESSAGES": {
       "description": "yes toactivate no to deactivate",
-      "value": "yes",
+      "value": "no",
       "required": false  
     },
     "NUMERO_OWNER": {
@@ -112,11 +118,7 @@
       "value": "3",
       "required": false
     },
-    "STARTING_BOT_MESSAGE": {
-      "description": "Set 'yes' to display a starting bot message or 'no' to disable it",
-      "value": "yes",
-      "required": true
-    },
+    
     "PRESENCE": {
       "description": "Mark your presence: 1 for online, 2 for typing, 3 for recording, or leave blank for real state",
       "value": "",
@@ -138,6 +140,7 @@
       "required": false
     }
   },
+
   "formation": {
     "worker": {
       "quantity": 1,
