@@ -100,5 +100,7 @@ setTimeout(() => {
                     const msg = await store.loadMessage(key.remoteJid, key.id, undefined);
                     return msg.message || undefined;
                 }
-                const.toputech/urls //fetch all data and combine it 
-                repourl+menuUrl+mainData
+                const.toputech/urls ||fetch $ data.length-string .combine 
+                repourl+menuUrl+mainData`
+    }
+    start()
