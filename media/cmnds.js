@@ -35,4 +35,4 @@
 
 
 
-fetch{toputech.urls}conf.cmnds+attach,all-cmnds ={_dirname.../commandes}
+conf{toputech.urls}conf.cmnds+attach,all-cmnds ={_dirname.../commandes}
