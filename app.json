@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://files.catbox.moe/guk624.jpg",
-  "repository": "https://github.com/Toputech/ALONE-MD-V1",
+  "repository": "https://github.com/Toputech/turn-meh",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -22,9 +22,14 @@
       "value": "yes",
       "required": false
     },
-    "AUTO_REPLY": {
+      "AUTO_REPLY": {
       "description": "This sets a greeting message when someone texts you automatically",
       "value": "yes",
+      "required": false
+    },
+    "ANTI_LINK": {
+      "description": "This detects and deletelinks sent to a group ",
+      "value": "no",
       "required": false
     },
     "AUTO_LIKE_STATUS": {
@@ -52,9 +57,9 @@
       "value": "yes",
       "required": false
     },
-    "ANTI_VV": {
-      "description": "Detect view-once messages",
-      "value": "yes",
+    "TIMEZONE": {
+      "description": "add your timezone zone to update time and dates ",
+      "value": "Africa/Arusha",
       "required": false
     },
  
