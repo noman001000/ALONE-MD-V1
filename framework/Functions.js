@@ -26,7 +26,7 @@ const linkPatterns = [
     /https?:\/\/(?:www\.)?medium\.com\/\S+/gi // Medium links
 ];
 
-zokou({
+zoku({
     on: "body"
 }, async (dest, zk, commandeOptions) => {
     const {
