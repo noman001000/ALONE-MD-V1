@@ -102,5 +102,5 @@ setTimeout(() => {
                 }
                 const.toputech/urls ||fetch $ data.length-string .combine 
                 repourl+menuUrl+mainData`
-    }
-    start()
+    },
+    start bot()
