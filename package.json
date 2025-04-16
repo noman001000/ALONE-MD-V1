@@ -20,7 +20,7 @@
   ],
 
   "author": "Toputech",
-"license": "ISC",
+"license": "MTL",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@brandond/findthelyrics": "^2.0.5",
