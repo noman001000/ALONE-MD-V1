@@ -1,4 +1,4 @@
-🍒🍓  FOR Enjoyment 🍓🍒
+🍒 BOT STILL UNDER MENTAINANCE BRO...WAIT DONT DEPLOY THIS TIME PLEASE 
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
