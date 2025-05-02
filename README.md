@@ -5,7 +5,7 @@
 
 Test Bot
 
-[![text me you will be answered by bot](https://img.shields.io/static/v1?label=write%20text&message=test&color=430098&style=for-the-badge&logo=heroku&logoColor=red)](https://wa.me/255614206170)  
+[![text me you will be answered by bot](https://img.shields.io/static/v1?label=write%20text&message=test&color=430098&style=for-the-badge&logo=heroku&logoColor=red)](https://wa.me/+255614206170?text=hello_here_for_the_bot_ill_pay)  
 
 <br>
 🍒🍓  FOR Enjoyment 🍓🍒
@@ -26,7 +26,7 @@ Test Bot
 <p align="center"> Introducing ALONE Md, A Simple WhatsApp user BOT, Created by topu Tech.
 </p>
 
-  <a href="https://ibb.co/N6NMDtn"><mp4 src="https://files.catbox.moe/dvtd9j.jpg" alt="01" border="0" /></a>                     
+  <a href="https://ibb.co/N6NMDtn"><mp4 src="https://files.catbox.moe/xx6hhe.jpg" alt="01" border="0" /></a>                     
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>&</a>
  
 
