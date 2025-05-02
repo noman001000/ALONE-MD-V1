@@ -5,7 +5,7 @@
 
 Test Bot
 
-[![text me you will be answered by bot](https://img.shields.io/static/v1?label=write%20text&message=test&color=430098&style=for-the-badge&logo=heroku&logoColor=red)](https://wa.me/+255614206170?text=hello_here_for_the_bot_ill_pay)  
+[![text me you will be answered by bot](https://img.shields.io/static/v1?label=write%20text&message=test&color=430098&style=for-the-badge&logo=heroku&logoColor=red)](https://wa.me/+255614206170?text=hello_here_)  
 
 <br>
 🍒🍓  FOR Enjoyment 🍓🍒
@@ -15,7 +15,7 @@ Test Bot
  <h1 align="center"> A͛L͛O͛N͛E͛ M͛D͛ </h1>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-        <a href="https://ibb.co/N6NMDtn"><img src="https://files.catbox.moe/dvtd9j.jpg" alt="01" border="0" /></a>                     
+        <a href="https://ibb.co/N6NMDtn"><img src="https://files.catbox.moe/xx6hhe.jpg" alt="01" border="0" /></a>                     
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>&</a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a href='https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r' target="_blank"><img alt='Join.support' src='https://img.shields.io/badge/Join for support...-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=skyblue'/></a>
