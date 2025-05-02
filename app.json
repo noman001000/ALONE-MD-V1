@@ -27,12 +27,17 @@
       "value": "yes",
       "required": false
     },
+        "AUTOBIO": {
+      "description": "Updates BIO texts automatically",
+      "value": "yes",
+      "required": false
+    },
     "AUTO_LIKE_STATUS": {
       "description": "Your contact status will be liked automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
       "required": false
     },
-    "CHAT_BOT": {
+    "CHATBOT": {
       "description": "If turned on, the chatbot will automatically chat in your private messages or groups.",
       "value": "no",
       "required": false
@@ -47,24 +52,9 @@
       "value": "yes",
       "required": false
     },
-    "ANTI_VV": {
-      "description": "Detect view-once messages",
-      "value": "no",
-      "required": false
-    },
-    "ANTILINK": {
-      "description": "Detect view-once links",
-      "value": "no",
-      "required": false
-    },
     "BOT_NAME": {
       "description": "Give a name for your bot",
       "value": "ᗩᒪOᑎE ᗰᗪ",
-      "required": false
-    },
-    "BOT_MENU_LINKS": {
-      "description": "Add one or many links for your bot menu (e.g., url1,url2,url3)",
-      "value": "",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -75,12 +65,12 @@
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
       "value": "",
-      "required": true
+      "required": false 
     },
     "HEROKU_APP_NAME": {
       "description": "Insert your Heroku app name (required)",
       "value": "",
-      "required": true
+      "required": false
     },
     "SESSION_ID": {
       "description": "Enter your session ID, the code you receive after scanning the QR code",
@@ -106,7 +96,6 @@
       "description": "Set the warning limit for warning commands",
       "value": "3",
       "required": false
-
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 for online, 2 for typing, 3 for recording, or leave blank for real state",
@@ -120,7 +109,12 @@
     },
     "ANTICALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
+      "value": "no",
+      "required": false
+          },
+    "ANTICALL_MSG": {
+      "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
+      "value": "😩dear comrade i am very busy 🫤..leave a message instead",
       "required": false
     },
     "AUTO_REACTION": {
