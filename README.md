@@ -1,4 +1,4 @@
-[▶️ Watch Demo Video](https://github.com/Toputech/ALONE-MD-V1/blob/main/assets/demo.mp4?raw=true)
+[![Watch the video](https://github.com/Toputech/ALONE-MD-V1/blob/main/assets/thumbnail.png?raw=true)](https://github.com/Toputech/ALONE-MD-V1/blob/main/assets/demo.mp4?raw=true)
 🚀Very speed Whatsapp chatbot .... 🚀 
 
 
