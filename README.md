@@ -38,7 +38,7 @@
 <br>
 
 2. 👇 Get Session ID Here for wa.connection
-[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)](https://topu-scanner.onrender.com/pair) 
+[![Get Session ID Here](https://img.shields.io/static/v1?label=Session%20ID&message=Generate&color=FF4500&style=for-the-badge&logo=firefox&logoColor=orange)](https://topu-scanner.onrender.com/qr) 
 
 
 <br>
